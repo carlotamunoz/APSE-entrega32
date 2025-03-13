@@ -21,4 +21,4 @@
         with:
           context: .
           push: true
-          tags: ghcr.io/carlotamunoz/log_predict:latest
+          tags: ghcr.io/carlotamunoz/apseentrega32:latest
