@@ -1,0 +1,6 @@
+pandas==2.2.3
+ pymongo==4.11.2
+ Faker==37.0.0
+ kafka-python==2.0.6
+ folium==0.19.5
+ scikit-learn==1.6.1

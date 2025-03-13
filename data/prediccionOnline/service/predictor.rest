@@ -1,0 +1,6 @@
+POST 'http://127.0.0.1:7777/predict_eta' HTTP/1.1
+Content-Type: application/json
+
+{
+  "time": 2300
+}

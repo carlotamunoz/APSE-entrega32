@@ -1,0 +1,4 @@
+POST http://localhost:7500/simulateScenario HTTP/1.1
+Content-Type: application/json
+
+{"items":[{"itemId":"1", "locationId": "896add0e1620f4d2eb9fcb1"}, {"itemId":"2", "locationId": "886add0e1620f4d2eb9fcb1"}]}
