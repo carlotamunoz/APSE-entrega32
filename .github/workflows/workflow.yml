@@ -7,15 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    -
-      name: Login to GHCR.IO
+    - name: Login to GHCR.IO
       uses: docker/login-action@v2
       with:
         registry: ghcr.io
         username: "carlotamunoz"
         password: ${{ secrets.PAT }}
-    -
-      name: Build and push
+    - name: Build and push
       uses: docker/build-push-action@v3
       with:
         context: .
